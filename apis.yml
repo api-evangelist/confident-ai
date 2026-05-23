@@ -1,0 +1,161 @@
+aid: confident-ai
+url: https://raw.githubusercontent.com/api-evangelist/confident-ai/refs/heads/main/apis.yml
+name: Confident AI
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- LLM Evaluation
+- Open Source
+- Observability
+- Red Teaming
+- Guardrails
+- Python
+- TypeScript
+description: Confident AI is the company behind DeepEval, the widely adopted open-source LLM evaluation framework, and the
+  Confident AI cloud platform that layers observability, dataset management, regression testing, and red teaming on top
+  of the local framework. DeepEval treats LLM evaluation as unit testing with research-backed metrics such as GEval, AnswerRelevancy,
+  and Faithfulness, while DeepTeam provides an open-source red teaming framework. The hosted platform is SOC 2 Type II,
+  HIPAA, and GDPR compliant with self-hosting available for regulated customers.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: confident-ai:deepeval
+  name: DeepEval
+  tags:
+  - Open Source
+  - LLM Evaluation
+  - Python
+  - Testing Framework
+  humanURL: https://deepeval.com/
+  properties:
+  - url: https://deepeval.com/docs/getting-started
+    type: GettingStarted
+  - url: https://deepeval.com/docs/
+    type: Documentation
+  - url: https://github.com/confident-ai/deepeval
+    type: SourceCode
+  - url: https://pypi.org/project/deepeval/
+    type: SDK
+  description: DeepEval is an open-source Python framework for evaluating LLM applications as unit tests. It ships with
+    research-backed metrics including GEval, AnswerRelevancyMetric, FaithfulnessMetric, TaskCompletionMetric, and ConversationalGEval,
+    and supports end-to-end and component-level testing, multi-turn conversations, and LLM tracing for agents.
+- aid: confident-ai:confident-ai-platform
+  name: Confident AI Platform
+  tags:
+  - SaaS
+  - LLM Observability
+  - Evaluation
+  - Dataset Management
+  humanURL: https://www.confident-ai.com/
+  properties:
+  - url: https://documentation.confident-ai.com/
+    type: Documentation
+  - url: https://app.confident-ai.com/
+    type: ApplicationURL
+  description: Confident AI is the hosted platform that complements DeepEval with observability, centralized reporting,
+    regression testing, prompt versioning, dataset management, trace ingestion, and shared annotations. Provides Python
+    and TypeScript SDKs and 20+ integrations across OpenAI, LangGraph, OpenTelemetry, LangChain, and more.
+- aid: confident-ai:deepteam
+  name: DeepTeam
+  tags:
+  - Open Source
+  - Red Teaming
+  - AI Security
+  - Adversarial Testing
+  humanURL: https://www.trydeepteam.com/
+  properties:
+  - url: https://www.trydeepteam.com/docs
+    type: Documentation
+  - url: https://github.com/confident-ai/deepteam
+    type: SourceCode
+  description: DeepTeam is Confident AI's open-source red teaming framework for stress-testing LLM applications against
+    adversarial attacks including prompt injection, jailbreaks, PII leakage, bias, and policy violations.
+common:
+- type: Website
+  url: https://www.confident-ai.com/
+- type: Documentation
+  url: https://documentation.confident-ai.com/
+- type: DeepEvalDocumentation
+  url: https://deepeval.com/docs/
+- type: DeepTeamDocumentation
+  url: https://www.trydeepteam.com/docs
+- type: Blog
+  url: https://www.confident-ai.com/blog
+- type: Pricing
+  url: https://www.confident-ai.com/pricing
+- type: Login
+  url: https://app.confident-ai.com/
+- type: GitHubOrganization
+  url: https://github.com/confident-ai
+- type: GitHubRepository
+  url: https://github.com/confident-ai/deepeval
+- type: GitHubRepository
+  url: https://github.com/confident-ai/deepteam
+- type: LinkedIn
+  url: https://www.linkedin.com/company/confident-ai/
+- type: Discord
+  url: https://discord.com/invite/3SEyvpgu2f
+- type: Compliance
+  url: https://www.confident-ai.com/security
+- type: Features
+  data:
+  - name: DeepEval Framework
+    description: Open-source Python framework for evaluating LLM apps as unit tests with research-backed metrics.
+  - name: GEval Metric
+    description: LLM-as-a-judge metric for custom evaluation criteria configurable by natural language rubric.
+  - name: LLM Tracing
+    description: Component-level tracing of LLM calls, retrieval steps, and tool usage for agents.
+  - name: Observability
+    description: Hosted dashboards for traces, latencies, costs, and metric scores across production runs.
+  - name: Regression Testing
+    description: Detect quality regressions against historical baselines as part of CI.
+  - name: Prompt Versioning
+    description: Centralized prompt registry with version history and rollout.
+  - name: Dataset Management
+    description: Manage evaluation datasets, synthetic data generation, and human annotations.
+  - name: Red Teaming
+    description: DeepTeam framework for adversarial testing against LLM applications.
+  - name: Self-Hosting
+    description: Self-hosted deployment available for regulated customers.
+  - name: Compliance
+    description: SOC 2 Type II, HIPAA, and GDPR compliant cloud platform.
+- type: UseCases
+  data:
+  - name: Unit Testing LLM Apps
+    description: Treat LLM evaluations as pytest-style unit tests inside developer workflows and CI.
+  - name: RAG Evaluation
+    description: Score retrieval, faithfulness, and answer quality in RAG pipelines.
+  - name: Agent Evaluation
+    description: Trace and evaluate multi-step agents with component-level metrics.
+  - name: Production Observability
+    description: Stream production traces to Confident AI for monitoring and alerting.
+  - name: Red Teaming
+    description: Run adversarial test suites with DeepTeam to find security and safety failures.
+- type: Integrations
+  data:
+  - name: OpenAI
+    description: Evaluate OpenAI Chat Completions and Assistants outputs.
+  - name: Anthropic
+    description: Evaluate Anthropic Claude outputs.
+  - name: LangChain
+    description: Native integration for evaluating LangChain chains and agents.
+  - name: LangGraph
+    description: Trace and evaluate LangGraph stateful agents.
+  - name: LlamaIndex
+    description: Evaluate LlamaIndex RAG pipelines.
+  - name: CrewAI
+    description: Trace and evaluate CrewAI multi-agent crews.
+  - name: Pydantic AI
+    description: Integrate evaluators with Pydantic AI agents.
+  - name: OpenTelemetry
+    description: Ingest OTel traces for evaluation and observability.
+  - name: Ollama
+    description: Use local Ollama models as evaluators or as systems under test.
+  - name: Azure OpenAI
+    description: Evaluate Azure-hosted OpenAI deployments.
+  - name: Gemini
+    description: Evaluate Google Gemini model outputs.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
