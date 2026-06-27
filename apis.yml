@@ -36,7 +36,7 @@ apis:
   - url: https://github.com/confident-ai/deepeval
     type: SourceCode
   - url: https://pypi.org/project/deepeval/
-    type: SDK
+    type: SDKs
   description: DeepEval is an open-source Python framework for evaluating LLM applications as unit tests. It ships with
     research-backed metrics including GEval, AnswerRelevancyMetric, FaithfulnessMetric, TaskCompletionMetric, and ConversationalGEval,
     and supports end-to-end and component-level testing, multi-turn conversations, and LLM tracing for agents.
