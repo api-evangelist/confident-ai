@@ -72,6 +72,8 @@ apis:
   description: DeepTeam is Confident AI's open-source red teaming framework for stress-testing LLM applications against
     adversarial attacks including prompt injection, jailbreaks, PII leakage, bias, and policy violations.
 common:
+- type: DomainSecurity
+  url: security/confident-ai-domain-security.yml
 - type: Website
   url: https://www.confident-ai.com/
 - type: Documentation
