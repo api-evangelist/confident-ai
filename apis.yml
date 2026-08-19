@@ -30,7 +30,7 @@ description: Confident AI is the company behind DeepEval, the widely adopted ope
   HIPAA, and GDPR compliant with self-hosting available for regulated customers.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: confident-ai:deepeval
   name: DeepEval
