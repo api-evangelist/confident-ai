@@ -17,6 +17,14 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confident-ai.png
 tags:
 - LLM Evaluation
+- Open-Source
+- Observability
+- Red Teaming
+- Guardrails
+- Python
+- TypeScript
+tags_raw:
+- LLM Evaluation
 - Open Source
 - Observability
 - Red Teaming
@@ -35,6 +43,11 @@ apis:
 - aid: confident-ai:deepeval
   name: DeepEval
   tags:
+  - Open-Source
+  - LLM Evaluation
+  - Python
+  - Testing Framework
+  tags_raw:
   - Open Source
   - LLM Evaluation
   - Python
@@ -55,6 +68,11 @@ apis:
 - aid: confident-ai:confident-ai-platform
   name: Confident AI Platform
   tags:
+  - Software-as-a-Service
+  - LLM Observability
+  - Evaluation
+  - Dataset Management
+  tags_raw:
   - SaaS
   - LLM Observability
   - Evaluation
@@ -71,6 +89,11 @@ apis:
 - aid: confident-ai:deepteam
   name: DeepTeam
   tags:
+  - Open-Source
+  - Red Teaming
+  - AI Security
+  - Adversarial Testing
+  tags_raw:
   - Open Source
   - Red Teaming
   - AI Security
