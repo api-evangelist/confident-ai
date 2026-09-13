@@ -45,6 +45,7 @@ conformance:
       type. ARD permits extension types without core registration.'
     - '[API Catalog (RFC 9727)] Media type ''application/linkset+json'' is a valid application extension
       media type. ARD permits extension types without core registration.'
+  did_web: null
 catalog:
   host_display_name: Confident AI
   host_identifier: confident-ai.com
