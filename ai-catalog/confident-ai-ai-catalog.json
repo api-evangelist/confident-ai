@@ -1,0 +1,75 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Confident AI",
+    "identifier": "confident-ai.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:confident-ai.com:server:mcp",
+      "displayName": "Confident AI MCP Server",
+      "type": "application/mcp-server-card+json",
+      "url": "https://www.confident-ai.com/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "manage my Confident AI prompts and datasets from my coding agent",
+        "pull production traces and eval results into my editor",
+        "run cloud evaluations on my LLM app from an agent",
+        "review human annotations and annotation queues programmatically"
+      ]
+    },
+    {
+      "identifier": "urn:air:confident-ai.com:schema:metrics-api",
+      "displayName": "Confident AI Metrics API (OpenAPI)",
+      "type": "application/vnd.oai.openapi",
+      "url": "https://www.confident-ai.com/docs/openapi.yaml",
+      "representativeQueries": [
+        "evaluate an LLM output against a metric over REST",
+        "create and version evaluation datasets via API",
+        "manage goldens and metric collections programmatically"
+      ]
+    },
+    {
+      "identifier": "urn:air:confident-ai.com:index:agent-skills",
+      "displayName": "Confident AI Agent Skills",
+      "type": "application/json",
+      "url": "https://www.confident-ai.com/.well-known/agent-skills/index.json",
+      "representativeQueries": [
+        "teach my coding agent to write DeepEval eval suites",
+        "instrument an AI app with confident-trace",
+        "export OpenTelemetry traces to Confident AI",
+        "administer Confident AI projects and RBAC with the Admin SDK"
+      ]
+    },
+    {
+      "identifier": "urn:air:confident-ai.com:catalog:api",
+      "displayName": "API Catalog (RFC 9727)",
+      "type": "application/linkset+json",
+      "url": "https://www.confident-ai.com/.well-known/api-catalog",
+      "representativeQueries": [
+        "discover Confident AI's APIs and their OpenAPI specs",
+        "find the Confident AI service status endpoint"
+      ]
+    },
+    {
+      "identifier": "urn:air:confident-ai.com:doc:auth-md",
+      "displayName": "Agent Authentication (auth.md)",
+      "type": "text/markdown",
+      "url": "https://www.confident-ai.com/auth.md",
+      "representativeQueries": [
+        "how does an agent authenticate with Confident AI",
+        "register an OAuth client for the Confident AI MCP server",
+        "which header carries the Confident AI API key"
+      ]
+    },
+    {
+      "identifier": "urn:air:confident-ai.com:doc:llms-txt",
+      "displayName": "Site Index for LLMs (llms.txt)",
+      "type": "text/plain",
+      "url": "https://www.confident-ai.com/llms.txt",
+      "representativeQueries": [
+        "what does Confident AI do",
+        "index of Confident AI docs, guides, and comparisons in markdown"
+      ]
+    }
+  ]
+}
