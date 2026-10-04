@@ -30,7 +30,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confident-ai.png
 tags:
 - LLM Evaluation
-- Open-Source
+- Open Source
 - Observability
 - Red Teaming
 - Guardrails
@@ -44,6 +44,7 @@ tags_raw:
 - Guardrails
 - Python
 - TypeScript
+- Open-Source
 description: Confident AI is the company behind DeepEval, the widely adopted open-source LLM evaluation framework, and the
   Confident AI cloud platform that layers observability, dataset management, regression testing, and red teaming on top
   of the local framework. DeepEval treats LLM evaluation as unit testing with research-backed metrics such as GEval, AnswerRelevancy,
@@ -56,7 +57,7 @@ apis:
 - aid: confident-ai:deepeval
   name: DeepEval
   tags:
-  - Open-Source
+  - Open Source
   - LLM Evaluation
   - Python
   - Testing Framework
@@ -65,6 +66,7 @@ apis:
   - LLM Evaluation
   - Python
   - Testing Framework
+  - Open-Source
   humanURL: https://deepeval.com/
   properties:
   - url: https://deepeval.com/docs/getting-started
@@ -102,7 +104,7 @@ apis:
 - aid: confident-ai:deepteam
   name: DeepTeam
   tags:
-  - Open-Source
+  - Open Source
   - Red Teaming
   - AI Security
   - Adversarial Testing
@@ -111,6 +113,7 @@ apis:
   - Red Teaming
   - AI Security
   - Adversarial Testing
+  - Open-Source
   humanURL: https://www.trydeepteam.com/
   properties:
   - url: https://www.trydeepteam.com/docs
