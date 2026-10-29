@@ -1,4 +1,4 @@
-# confident-ai
+# Confident AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Confident AI / DeepEval — open-source LLM evaluation framework
+Confident AI is the company behind DeepEval, the widely adopted open-source LLM evaluation framework, and the Confident AI cloud platform that layers observability, dataset management, regression testing, and red teaming on top of the local framework. DeepEval treats LLM evaluation as unit testing with research-backed metrics such as GEval, AnswerRelevancy, and Faithfulness, while DeepTeam provides an open-source red teaming framework. The hosted platform is SOC 2 Type II, HIPAA, and GDPR compliant with self-hosting available for regulated customers.
+
+**Areas:** LLM Evaluation · Open Source · Observability · Red Teaming · Guardrails · Python · TypeScript
+
+## Confident AI on APIs.io
+
+Everything profiled for Confident AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/confident-ai/](https://apis.io/providers/confident-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [DeepEval](https://apis.io/apis/confident-ai/deepeval/) — DeepEval is an open-source Python framework for evaluating LLM applications as unit tests. It ships with research-backed metrics including GEval,…
+- [Confident AI Platform](https://apis.io/apis/confident-ai/confident-ai-platform/) — Confident AI is the hosted platform that complements DeepEval with observability, centralized reporting, regression testing, prompt versioning, dataset…
+- [DeepTeam](https://apis.io/apis/confident-ai/deepteam/) — DeepTeam is Confident AI's open-source red teaming framework for stress-testing LLM applications against adversarial attacks including prompt injection,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [confident-ai](https://apis.io/servers/confident-ai/confident-ai/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Confident Ai Domain Security](https://apis.io/security/confident-ai/confident-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Confident Ai Plans Pricing](https://apis.io/plans/confident-ai/confident-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Confident Ai Rate Limits](https://apis.io/rate-limits/confident-ai/confident-ai-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Confident Ai Finops](https://apis.io/finops/confident-ai/confident-ai-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.confident-ai.com/)
+- [Documentation](https://documentation.confident-ai.com/)
+- [Pricing](https://www.confident-ai.com/pricing)
+- [Blog](https://www.confident-ai.com/blog)
+- [Compliance](https://www.confident-ai.com/security)
+- [GitHub](https://github.com/confident-ai)
+
+## API Evangelist rating
+
+**Kin Score 21.9** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 22.4 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/confident-ai/](https://apis.io/providers/confident-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Confident AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/confident-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
